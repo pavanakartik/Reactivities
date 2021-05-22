@@ -44,7 +44,7 @@ const Activities = {
 
     details: (id: string) => requests.get<Activity>(`/activities/${id}`),
 
-    create: (activity: Activity) => requests.post<void>('/activities', activity),
+    create: (activity: Activity) => requests.post<void>('/activitiesc', activity),
 
 
     update: (activity: Activity) => requests.put<void>(`/activities/${activity.id}`, activity),
