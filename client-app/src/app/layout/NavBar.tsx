@@ -17,7 +17,7 @@ export default function NavBar() {
 
                     <img src="/assets/logo.png" alt="logo" style=
                         {{ marginRight: '10px' }} />
-          Reactivities
+          React Activities
       </Menu.Item>
                 <Menu.Item as={NavLink} to='/activities' name='Activities' />
 

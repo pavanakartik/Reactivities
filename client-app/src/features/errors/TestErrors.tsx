@@ -36,7 +36,7 @@ export default function TestErrors() {
 
                
             
-            setErrors(err));
+            console.log(err));
     }
 
     return (

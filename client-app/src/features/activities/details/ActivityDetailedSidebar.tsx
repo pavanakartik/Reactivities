@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Segment, List, Label, Item, Image } from 'semantic-ui-react'
 import { Link } from 'react-router-dom'
 import { observer } from 'mobx-react-lite'
@@ -29,7 +29,7 @@ export default observer(function ActivityDetailedSidebar() {
                         <Image size='tiny' src={'/assets/user.png'} />
                         <Item.Content verticalAlign='middle'>
                             <Item.Header as='h3'>
-                                <Link to={`#`}>Bob</Link>
+                                <Link to={`#`}>Kartik</Link>
                             </Item.Header>
                             <Item.Extra style={{ color: 'orange' }}>Following</Item.Extra>
                         </Item.Content>
@@ -39,7 +39,7 @@ export default observer(function ActivityDetailedSidebar() {
                         <Image size='tiny' src={'/assets/user.png'} />
                         <Item.Content verticalAlign='middle'>
                             <Item.Header as='h3'>
-                                <Link to={`#`}>Tom</Link>
+                                <Link to={`#`}>Pavana</Link>
                             </Item.Header>
                             <Item.Extra style={{ color: 'orange' }}>Following</Item.Extra>
                         </Item.Content>
@@ -49,7 +49,7 @@ export default observer(function ActivityDetailedSidebar() {
                         <Image size='tiny' src={'/assets/user.png'} />
                         <Item.Content verticalAlign='middle'>
                             <Item.Header as='h3'>
-                                <Link to={`#`}>Sally</Link>
+                                <Link to={`#`}>Velagaleti</Link>
                             </Item.Header>
                         </Item.Content>
                     </Item>

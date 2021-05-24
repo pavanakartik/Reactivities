@@ -12,10 +12,10 @@ export default function HomePage() {
                 <Header as='h1' inverted>
 <Image size= 'massive' src='/assets/logo.png' style={{marginBottom: 12}} />
                
-               Reactivities
+               React Activities
                 </Header>
 
-                <Header as ='h2' invertedContent='Welcome to Reactivities'>
+                <Header as ='h2' invertedContent='Welcome to React Activities'>
 
 
 <Button as ={Link} to='/activities' size='huge' inverted>

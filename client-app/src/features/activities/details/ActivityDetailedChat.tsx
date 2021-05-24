@@ -1,5 +1,5 @@
 import { observer } from 'mobx-react-lite'
-import React from 'react'
+
 import { Segment, Header, Comment, Form, Button } from 'semantic-ui-react'
 
 export default observer(function ActivityDetailedChat() {
@@ -19,7 +19,7 @@ export default observer(function ActivityDetailedChat() {
                     <Comment>
                         <Comment.Avatar src='/assets/user.png' />
                         <Comment.Content>
-                            <Comment.Author as='a'>Matt</Comment.Author>
+                            <Comment.Author as='a'>Venkat</Comment.Author>
                             <Comment.Metadata>
                                 <div>Today at 5:42PM</div>
                             </Comment.Metadata>
@@ -33,7 +33,7 @@ export default observer(function ActivityDetailedChat() {
                     <Comment>
                         <Comment.Avatar src='/assets/user.png' />
                         <Comment.Content>
-                            <Comment.Author as='a'>Joe Henderson</Comment.Author>
+                            <Comment.Author as='a'>Rishi </Comment.Author>
                             <Comment.Metadata>
                                 <div>5 days ago</div>
                             </Comment.Metadata>
