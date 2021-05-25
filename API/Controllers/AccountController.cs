@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers {
 
+    [AllowAnonymous]
     [ApiController]
     [Route ("api/[controller]")]
     public class AccountController : ControllerBase {
@@ -48,13 +49,17 @@ namespace API.Controllers {
 
             if (await _userManager.Users.AnyAsync (x => x.Email == registerDto.Email)) {
 
-                return BadRequest ("Email Taken");
+                ModelState.AddModelError ("email", "Email taken");
+
+                return ValidationProblem ();
 
             }
 
             if (await _userManager.Users.AnyAsync (x => x.UserName == registerDto.UserName)) {
 
-                return BadRequest ("Username Taken");
+                ModelState.AddModelError ("username", "Username taken");
+
+                return ValidationProblem ();
 
             }
 
